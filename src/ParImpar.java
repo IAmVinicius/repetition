@@ -13,13 +13,13 @@ public class ParImpar {
         System.out.println("Quantos números deseja? ");
         quantosNumeros = scan.nextInt();
         int count = 0;
-        do{
+        while(count < quantosNumeros){
             System.out.println("Número: ");
             numero = scan.nextInt();
                if(numero % 2 == 0) par++;
                else impar ++;
             count++;
-        }while(count < quantosNumeros);
+        }
 
         System.out.println("Quantidade de números pares: " + par);
         System.out.println("Quantidade de números impares: " + impar);
