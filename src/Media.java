@@ -1,7 +1,7 @@
 //Leia 5 números, indique o maior, a soma e a médias deles
 import java.util.Scanner;
 
-public class Main {
+public class Media {
      public static void main(String[] args) {
          Scanner scan = new Scanner(System.in);
          int soma = 0;
