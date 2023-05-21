@@ -15,6 +15,6 @@ public class Fatorial {
             System.out.print( i + " x ");
             multiplicacao = multiplicacao * i;
         }
-        System.out.println(") = " +multiplicacao);
+        System.out.println(") = " + multiplicacao);
     }
 }
